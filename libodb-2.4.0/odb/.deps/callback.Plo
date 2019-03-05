@@ -1,0 +1,54 @@
+callback.lo: callback.cxx /usr/include/stdc-predef.h ../odb/callback.hxx \
+ ../odb/pre.hxx ../odb/forward.hxx \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cstddef \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/cpu_defines.h \
+ /opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.2.1/include/stddef.h \
+ ../odb/details/export.hxx ../odb/details/config.hxx \
+ ../odb/details/config.h ../odb/post.hxx \
+ ../odb/details/shared-ptr-fwd.hxx \
+ ../odb/details/shared-ptr/counter-type.hxx
+
+/usr/include/stdc-predef.h:
+
+../odb/callback.hxx:
+
+../odb/pre.hxx:
+
+../odb/forward.hxx:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cstddef:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.2.1/include/stddef.h:
+
+../odb/details/export.hxx:
+
+../odb/details/config.hxx:
+
+../odb/details/config.h:
+
+../odb/post.hxx:
+
+../odb/details/shared-ptr-fwd.hxx:
+
+../odb/details/shared-ptr/counter-type.hxx:

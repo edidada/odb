@@ -1,0 +1,657 @@
+database.lo: database.cxx /usr/include/stdc-predef.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/sstream \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/istream \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ios \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/iosfwd \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/cpu_defines.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stringfwd.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/memoryfwd.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/postypes.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.2.1/include/stdarg.h \
+ /usr/include/bits/wchar.h \
+ /opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.2.1/include/stddef.h \
+ /usr/include/xlocale.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/exception \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/atomic_lockfree_defines.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/char_traits.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_algobase.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/functexcept.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/exception_defines.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/cpp_type_traits.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/type_traits.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/numeric_traits.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_pair.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/move.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/concept_check.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_iterator_base_types.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_iterator_base_funcs.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/debug/debug.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_iterator.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/ptr_traits.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/predefined_ops.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/localefwd.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/c++locale.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/clocale \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cctype \
+ /usr/include/ctype.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/byteswap-16.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/ios_base.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/atomicity.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/gthr.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/bits/timex.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/setjmp.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/atomic_word.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/locale_classes.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/string \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/allocator.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/c++allocator.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/new_allocator.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/new \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/ostream_insert.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/cxxabi_forced.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_function.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/backward/binders.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/range_access.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/basic_string.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/alloc_traits.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/basic_string.tcc \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/locale_classes.tcc \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/stdexcept \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/streambuf \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/streambuf.tcc \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/basic_ios.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/locale_facets.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cwctype \
+ /usr/include/wctype.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/ctype_base.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/streambuf_iterator.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/ctype_inline.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/locale_facets.tcc \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/basic_ios.tcc \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ostream \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/ostream.tcc \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/istream.tcc \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/sstream.tcc \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cstring \
+ /usr/include/string.h ../../odb/mysql/mysql.hxx \
+ ../../odb/mysql/details/config.hxx ../../odb/mysql/details/config.h \
+ ../../odb/mysql/mysql-types.hxx /usr/include/mysql/mysql_time.h \
+ /usr/include/mysql/mysql.h /usr/include/sys/types.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
+ /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_com.h \
+ /usr/include/mysql/mysql_time.h /usr/include/mysql/my_list.h \
+ /usr/include/mysql/typelib.h /usr/include/mysql/my_alloc.h \
+ /usr/include/mysql/errmsg.h /usr/include/mysql/mysqld_error.h \
+ ../../odb/mysql/database.hxx /usr/local/include/odb/pre.hxx \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/memory \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_construct.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_uninitialized.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_tempbuf.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_raw_storage_iter.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/backward/auto_ptr.h \
+ /usr/local/include/odb/database.hxx \
+ /usr/local/include/odb/details/config.hxx \
+ /usr/local/include/odb/details/config.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/map \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_tree.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_map.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_multimap.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cstddef \
+ /usr/local/include/odb/traits.hxx /usr/local/include/odb/forward.hxx \
+ /usr/local/include/odb/details/export.hxx \
+ /usr/local/include/odb/post.hxx \
+ /usr/local/include/odb/details/shared-ptr-fwd.hxx \
+ /usr/local/include/odb/details/shared-ptr/counter-type.hxx \
+ /usr/local/include/odb/pointer-traits.hxx \
+ /usr/local/include/odb/details/meta/remove-const.hxx \
+ /usr/local/include/odb/schema-version.hxx \
+ /usr/local/include/odb/query.hxx \
+ /usr/local/include/odb/prepared-query.hxx \
+ /usr/local/include/odb/result.hxx \
+ /usr/local/include/odb/details/shared-ptr.hxx \
+ /usr/local/include/odb/details/shared-ptr/base.hxx \
+ /usr/local/include/odb/details/shared-ptr/base.ixx \
+ /usr/local/include/odb/details/shared-ptr/base.txx \
+ /usr/local/include/odb/details/meta/answer.hxx \
+ /usr/local/include/odb/details/meta/polymorphic-p.hxx \
+ /usr/local/include/odb/details/meta/class-p.hxx \
+ /usr/local/include/odb/details/meta/remove-const-volatile.hxx \
+ /usr/local/include/odb/details/meta/remove-volatile.hxx \
+ /usr/local/include/odb/details/shared-ptr/exception.hxx \
+ /usr/local/include/odb/exception.hxx /usr/local/include/odb/result.txx \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cassert \
+ /usr/include/assert.h /usr/local/include/odb/statement.hxx \
+ /usr/local/include/odb/connection.hxx \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/typeinfo \
+ /usr/local/include/odb/details/c-string.hxx \
+ /usr/local/include/odb/connection.ixx \
+ /usr/local/include/odb/connection.txx \
+ /usr/local/include/odb/exceptions.hxx \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/set \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_set.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_multiset.h \
+ /usr/local/include/odb/details/mutex.hxx \
+ /usr/local/include/odb/details/posix/mutex.hxx \
+ /usr/local/include/odb/details/posix/mutex.ixx \
+ /usr/local/include/odb/details/posix/exceptions.hxx \
+ /usr/local/include/odb/details/exception.hxx \
+ /usr/local/include/odb/details/function-wrapper.hxx \
+ /usr/local/include/odb/details/function-wrapper.ixx \
+ /usr/local/include/odb/details/function-wrapper.txx \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/utility \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_relops.h \
+ /usr/local/include/odb/database.ixx \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/iterator \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stream_iterator.h \
+ /usr/local/include/odb/transaction.hxx \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/vector \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_vector.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_bvector.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/vector.tcc \
+ /usr/local/include/odb/details/unique-ptr.hxx \
+ /usr/local/include/odb/transaction.ixx \
+ /usr/local/include/odb/database.txx /usr/local/include/odb/section.hxx \
+ /usr/local/include/odb/no-op-cache-traits.hxx \
+ /usr/local/include/odb/details/transfer-ptr.hxx \
+ ../../odb/mysql/version.hxx /usr/include/mysql/mysql_version.h \
+ /usr/local/include/odb/version.hxx ../../odb/mysql/forward.hxx \
+ ../../odb/mysql/query.hxx ../../odb/mysql/traits.hxx \
+ /usr/local/include/odb/wrapper-traits.hxx \
+ /usr/local/include/odb/nullable.hxx \
+ /usr/local/include/odb/details/buffer.hxx \
+ /usr/local/include/odb/details/wrapper-p.hxx \
+ ../../odb/mysql/details/export.hxx ../../odb/mysql/enum.hxx \
+ ../../odb/mysql/binding.hxx ../../odb/mysql/details/conversion.hxx \
+ ../../odb/mysql/query.ixx ../../odb/mysql/query.txx \
+ ../../odb/mysql/tracer.hxx /usr/local/include/odb/tracer.hxx \
+ ../../odb/mysql/connection.hxx ../../odb/mysql/transaction-impl.hxx \
+ ../../odb/mysql/transaction-impl.ixx ../../odb/mysql/auto-handle.hxx \
+ ../../odb/mysql/connection.ixx ../../odb/mysql/connection-factory.hxx \
+ /usr/local/include/odb/details/condition.hxx \
+ /usr/local/include/odb/details/posix/condition.hxx \
+ /usr/local/include/odb/details/posix/condition.ixx \
+ ../../odb/mysql/database.ixx ../../odb/mysql/transaction.hxx \
+ ../../odb/mysql/transaction.ixx ../../odb/mysql/statement.hxx \
+ ../../odb/mysql/exceptions.hxx ../../odb/mysql/details/options.hxx \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/deque \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_deque.h \
+ /opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/deque.tcc \
+ ../../odb/mysql/details/options.ixx
+
+/usr/include/stdc-predef.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/sstream:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/istream:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ios:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/iosfwd:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stringfwd.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/memoryfwd.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/postypes.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.2.1/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.2.1/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/exception:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/atomic_lockfree_defines.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/char_traits.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_algobase.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/functexcept.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/exception_defines.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/cpp_type_traits.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/type_traits.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/numeric_traits.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_pair.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/move.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/concept_check.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_iterator_base_types.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_iterator_base_funcs.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/debug/debug.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_iterator.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/ptr_traits.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/predefined_ops.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/localefwd.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/c++locale.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/ios_base.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/atomicity.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/gthr.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/atomic_word.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/locale_classes.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/string:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/allocator.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/c++allocator.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/new_allocator.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/new:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/ostream_insert.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/cxxabi_forced.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_function.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/backward/binders.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/range_access.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/basic_string.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ext/alloc_traits.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/basic_string.tcc:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/locale_classes.tcc:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/stdexcept:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/streambuf:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/streambuf.tcc:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/basic_ios.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/locale_facets.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cwctype:
+
+/usr/include/wctype.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/ctype_base.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/streambuf_iterator.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/x86_64-redhat-linux/bits/ctype_inline.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/locale_facets.tcc:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/basic_ios.tcc:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/ostream:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/ostream.tcc:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/istream.tcc:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/sstream.tcc:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cstring:
+
+/usr/include/string.h:
+
+../../odb/mysql/mysql.hxx:
+
+../../odb/mysql/details/config.hxx:
+
+../../odb/mysql/details/config.h:
+
+../../odb/mysql/mysql-types.hxx:
+
+/usr/include/mysql/mysql_time.h:
+
+/usr/include/mysql/mysql.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/mysql/mysql_version.h:
+
+/usr/include/mysql/mysql_com.h:
+
+/usr/include/mysql/mysql_time.h:
+
+/usr/include/mysql/my_list.h:
+
+/usr/include/mysql/typelib.h:
+
+/usr/include/mysql/my_alloc.h:
+
+/usr/include/mysql/errmsg.h:
+
+/usr/include/mysql/mysqld_error.h:
+
+../../odb/mysql/database.hxx:
+
+/usr/local/include/odb/pre.hxx:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/memory:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_construct.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_uninitialized.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_tempbuf.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_raw_storage_iter.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/backward/auto_ptr.h:
+
+/usr/local/include/odb/database.hxx:
+
+/usr/local/include/odb/details/config.hxx:
+
+/usr/local/include/odb/details/config.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/map:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_tree.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_map.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_multimap.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cstddef:
+
+/usr/local/include/odb/traits.hxx:
+
+/usr/local/include/odb/forward.hxx:
+
+/usr/local/include/odb/details/export.hxx:
+
+/usr/local/include/odb/post.hxx:
+
+/usr/local/include/odb/details/shared-ptr-fwd.hxx:
+
+/usr/local/include/odb/details/shared-ptr/counter-type.hxx:
+
+/usr/local/include/odb/pointer-traits.hxx:
+
+/usr/local/include/odb/details/meta/remove-const.hxx:
+
+/usr/local/include/odb/schema-version.hxx:
+
+/usr/local/include/odb/query.hxx:
+
+/usr/local/include/odb/prepared-query.hxx:
+
+/usr/local/include/odb/result.hxx:
+
+/usr/local/include/odb/details/shared-ptr.hxx:
+
+/usr/local/include/odb/details/shared-ptr/base.hxx:
+
+/usr/local/include/odb/details/shared-ptr/base.ixx:
+
+/usr/local/include/odb/details/shared-ptr/base.txx:
+
+/usr/local/include/odb/details/meta/answer.hxx:
+
+/usr/local/include/odb/details/meta/polymorphic-p.hxx:
+
+/usr/local/include/odb/details/meta/class-p.hxx:
+
+/usr/local/include/odb/details/meta/remove-const-volatile.hxx:
+
+/usr/local/include/odb/details/meta/remove-volatile.hxx:
+
+/usr/local/include/odb/details/shared-ptr/exception.hxx:
+
+/usr/local/include/odb/exception.hxx:
+
+/usr/local/include/odb/result.txx:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/cassert:
+
+/usr/include/assert.h:
+
+/usr/local/include/odb/statement.hxx:
+
+/usr/local/include/odb/connection.hxx:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/typeinfo:
+
+/usr/local/include/odb/details/c-string.hxx:
+
+/usr/local/include/odb/connection.ixx:
+
+/usr/local/include/odb/connection.txx:
+
+/usr/local/include/odb/exceptions.hxx:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/set:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_set.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_multiset.h:
+
+/usr/local/include/odb/details/mutex.hxx:
+
+/usr/local/include/odb/details/posix/mutex.hxx:
+
+/usr/local/include/odb/details/posix/mutex.ixx:
+
+/usr/local/include/odb/details/posix/exceptions.hxx:
+
+/usr/local/include/odb/details/exception.hxx:
+
+/usr/local/include/odb/details/function-wrapper.hxx:
+
+/usr/local/include/odb/details/function-wrapper.ixx:
+
+/usr/local/include/odb/details/function-wrapper.txx:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/utility:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_relops.h:
+
+/usr/local/include/odb/database.ixx:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/iterator:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stream_iterator.h:
+
+/usr/local/include/odb/transaction.hxx:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/vector:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_vector.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_bvector.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/vector.tcc:
+
+/usr/local/include/odb/details/unique-ptr.hxx:
+
+/usr/local/include/odb/transaction.ixx:
+
+/usr/local/include/odb/database.txx:
+
+/usr/local/include/odb/section.hxx:
+
+/usr/local/include/odb/no-op-cache-traits.hxx:
+
+/usr/local/include/odb/details/transfer-ptr.hxx:
+
+../../odb/mysql/version.hxx:
+
+/usr/include/mysql/mysql_version.h:
+
+/usr/local/include/odb/version.hxx:
+
+../../odb/mysql/forward.hxx:
+
+../../odb/mysql/query.hxx:
+
+../../odb/mysql/traits.hxx:
+
+/usr/local/include/odb/wrapper-traits.hxx:
+
+/usr/local/include/odb/nullable.hxx:
+
+/usr/local/include/odb/details/buffer.hxx:
+
+/usr/local/include/odb/details/wrapper-p.hxx:
+
+../../odb/mysql/details/export.hxx:
+
+../../odb/mysql/enum.hxx:
+
+../../odb/mysql/binding.hxx:
+
+../../odb/mysql/details/conversion.hxx:
+
+../../odb/mysql/query.ixx:
+
+../../odb/mysql/query.txx:
+
+../../odb/mysql/tracer.hxx:
+
+/usr/local/include/odb/tracer.hxx:
+
+../../odb/mysql/connection.hxx:
+
+../../odb/mysql/transaction-impl.hxx:
+
+../../odb/mysql/transaction-impl.ixx:
+
+../../odb/mysql/auto-handle.hxx:
+
+../../odb/mysql/connection.ixx:
+
+../../odb/mysql/connection-factory.hxx:
+
+/usr/local/include/odb/details/condition.hxx:
+
+/usr/local/include/odb/details/posix/condition.hxx:
+
+/usr/local/include/odb/details/posix/condition.ixx:
+
+../../odb/mysql/database.ixx:
+
+../../odb/mysql/transaction.hxx:
+
+../../odb/mysql/transaction.ixx:
+
+../../odb/mysql/statement.hxx:
+
+../../odb/mysql/exceptions.hxx:
+
+../../odb/mysql/details/options.hxx:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/deque:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/stl_deque.h:
+
+/opt/rh/devtoolset-4/root/usr/include/c++/5.2.1/bits/deque.tcc:
+
+../../odb/mysql/details/options.ixx:
